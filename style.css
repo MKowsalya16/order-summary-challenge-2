@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+body{
+background-image:url(images/pattern-background-desktop.svg);
+background-size: contain;
+background-repeat: no-repeat;
+background-color:hsl(225, 100%, 94%);
+justify-content:center;
+align-items:center;
+display: flex;
+}
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 400px;
+    height:auto;
+    background:white;
+    border-radius:14px;
+}
+.hero-img {
+  width: 100%;
+  border-top-left-radius:14px;
+  border-top-right-radius: 14px;
+}
+h2{
+    text-align:center;
+    padding: 15px;
+    margin-top:18px;
+    margin-bottom: 13px;
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.plans {
+    padding: 2px;
+    margin-left:21px;
+    align-items: center;
+    justify-content: center ;
+    width: 350px;
+    height:70px ;
+    margin-top: 25px;
+    display: flex;
+    background: hsl(225, 100%, 98%);
+    border-radius: 15;
+    justify-content: space-around;
+    
+}
+.icon {
+    width: 35px;
+    margin-left: ;
+
+}
+.text-content {
+     margin-left: 15px;
+     line-height: 22px;
+     justify-content: space-between;
+}
+h3 {
+    color: hsl(223, 47%, 23%);
+    margin-left: -26px;
+
+}
+span {
+    color: hsl(224, 23%, 55%);
+    margin-left:-26px ;
+    margin-right:125px;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.btn{
+    width:350px;
+    height: 50px;
+    color:#faf9f9;
+    background:  hsl(245, 75%, 52%);
+    border: 1px solid;
+    border-radius: 11px;
+    margin-left: 21px;
+    margin-top: 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0px 5px 0px px hsl(225, 100%, 94%)
+}
+ a.cancel {
+    text-decoration:none;
+    color:hsl(223, 47%, 23%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    font-weight: bold;
+
+}
